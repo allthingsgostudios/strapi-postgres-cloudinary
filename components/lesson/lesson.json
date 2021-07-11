@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_lesson_lessons",
+  "info": {
+    "name": "lesson",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "descriptionShort": {
+      "type": "string"
+    },
+    "descriptionExtended": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "video",
+        "pdf"
+      ]
+    },
+    "resource": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

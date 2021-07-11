@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_highlight_highlights",
+  "info": {
+    "name": "highlight",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

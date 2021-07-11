@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_quiz_quizzes",
+  "info": {
+    "name": "quiz",
+    "icon": "pencil-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Knowledge Check"
+    },
+    "description": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "quiz"
+      ],
+      "default": "quiz",
+      "required": true
+    },
+    "question": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.question"
+    }
+  }
+}

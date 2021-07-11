@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_answer_answers",
+  "info": {
+    "name": "answer",
+    "icon": "comment-dots",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "key": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  }
+}
