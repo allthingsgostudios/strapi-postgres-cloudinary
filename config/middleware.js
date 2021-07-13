@@ -7,6 +7,7 @@ module.exports = {
         "http://localhost:1337",
         "http://localhost:3000",
         "https://cadem-academy-dev.surge.sh/",
+        "https://strapi-j4gf.onrender.com",
       ],
     },
   },
