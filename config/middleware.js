@@ -4,6 +4,7 @@ module.exports = {
       enabled: true,
       origin: [
         "http://localhost",
+        "http://localhost:1337",
         "http://localhost:3000",
         "https://cadem-academy-dev.surge.sh/",
       ],
